@@ -27,7 +27,6 @@ urlpatterns = [
     # path('api/sensoviz/', include(router.urls)),
     url(r'^media/(?P<path>.*)$', serve,{'document_root': settings.MEDIA_ROOT}),
     url(r'^static/(?P<path>.*)$', serve,{'document_root': settings.STATIC_ROOT}),
-    'DATABASE_URL': 'postgresql://postgres:I2iQAQ9DAG97tdJCqrM1@containers-us-west-43.railway.app:6430/railway',
     path('admin/', admin.site.urls),
     path('', Home, name="home"),
     path('patient_home', User_Home,name="patient_home"),

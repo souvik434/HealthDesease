@@ -84,7 +84,7 @@ WSGI_APPLICATION = 'HealthDesease.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        
+        'DATABASE_URL': 'postgresql://postgres:I2iQAQ9DAG97tdJCqrM1@containers-us-west-43.railway.app:6430/railway',
         'NAME': 'railway',
         'USER': 'postgres',
         'PASSWORD': 'I2iQAQ9DAG97tdJCqrM1',
