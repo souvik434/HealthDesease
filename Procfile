@@ -1,1 +1,1 @@
-web: gunicorn HealthDesease.wsgi --log-file -
+web: gunicorn railway.wsgi --log-file -
